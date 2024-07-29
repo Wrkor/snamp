@@ -1,2 +1,7 @@
 /bin
 /packages
+/packages/
+*.nupkg
+**/packages/*
+!**/packages/build/
+!packages/repositories.config
