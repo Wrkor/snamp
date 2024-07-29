@@ -1,0 +1,7 @@
+<FileList>
+  <File Reference = "Gnostice.Controls.WinForms.dll">
+    <ToolboxItems VSCategory="Gnostice Document Studio .NET" BlendCategory="Gnostice Document Studio .NET">
+      <Item Type="Gnostice.Controls.WinForms.DocumentViewer" />
+    </ToolboxItems>
+  </File>
+</FileList>

@@ -1,0 +1,158 @@
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Scada Manager Review.exe.config
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Scada Manager Review.exe
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Scada Manager Review.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\lkt-US\Scada Manager Review.resources.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Core.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\log4net.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Newtonsoft.Json.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Buffers.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Memory.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Numerics.Vectors.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Newtonsoft.Json.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Buffers.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Memory.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Numerics.Vectors.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.csproj.AssemblyReference.cache
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.InputForm.resources
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.NewProjectForm.resources
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.Properties.Resources.resources
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.SMRForm.resources
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.SMRHubForm.resources
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.SMRHubForm.lkt-US.resources
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.csproj.GenerateResource.cache
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.csproj.CoreCompileInputs.cache
+D:\Projects\WinForms\Scada Manager Review\obj\Release\lkt-US\Scada Manager Review.resources.dll
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.csproj.CopyComplete
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.exe
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\libSkiaSharp.dylib
+D:\Projects\WinForms\Scada Manager Review\bin\Release\x86\libSkiaSharp.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\x64\libSkiaSharp.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\arm64\libSkiaSharp.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\AngleSharp.Css.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\AngleSharp.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\BitMiracle.LibJpeg.NET.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\DotNetZip.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Controls.WinForms.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Documents.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Graphics.GDIPlus.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Graphics.Skia.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.PageManager.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Printer.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.GLControl.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.Common.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Gtk.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WindowsForms.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WPF.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Drawing.Common.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Text.Encoding.CodePages.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\AngleSharp.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\AngleSharp.Css.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\BitMiracle.LibJpeg.NET.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\DotNetZip.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\DotNetZip.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\log4net.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.GLControl.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.GLControl.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.Common.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.Common.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Gtk.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Gtk.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WindowsForms.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WindowsForms.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WPF.pdb
+D:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WPF.xml
+D:\Projects\WinForms\Scada Manager Review\bin\Release\System.Text.Encoding.CodePages.xml
+D:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.exe.licenses
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Aspose.CAD.dll
+D:\Projects\WinForms\Scada Manager Review\bin\Release\Aspose.CAD.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\libSkiaSharp.dylib
+E:\Projects\WinForms\Scada Manager Review\bin\Release\x86\libSkiaSharp.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\x64\libSkiaSharp.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\arm64\libSkiaSharp.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Scada Manager Review.exe.config
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Scada Manager Review.exe
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Scada Manager Review.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\lkt-US\Scada Manager Review.resources.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\AngleSharp.Css.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\AngleSharp.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Aspose.CAD.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\BitMiracle.LibJpeg.NET.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\DotNetZip.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Controls.WinForms.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Core.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Documents.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Graphics.GDIPlus.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Graphics.Skia.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.PageManager.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Gnostice.Printer.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\log4net.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Newtonsoft.Json.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.GLControl.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.Common.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Gtk.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WindowsForms.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WPF.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Buffers.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Drawing.Common.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Memory.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Numerics.Vectors.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Text.Encoding.CodePages.dll
+E:\Projects\WinForms\Scada Manager Review\bin\Release\AngleSharp.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\AngleSharp.Css.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Aspose.CAD.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\BitMiracle.LibJpeg.NET.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\DotNetZip.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\DotNetZip.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\log4net.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\Newtonsoft.Json.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.GLControl.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\OpenTK.GLControl.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.Common.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Desktop.Common.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Gtk.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.Gtk.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WindowsForms.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WindowsForms.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WPF.pdb
+E:\Projects\WinForms\Scada Manager Review\bin\Release\SkiaSharp.Views.WPF.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Buffers.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Memory.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Numerics.Vectors.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+E:\Projects\WinForms\Scada Manager Review\bin\Release\System.Text.Encoding.CodePages.xml
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.csproj.AssemblyReference.cache
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.InputForm.resources
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.NewProjectForm.resources
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.Properties.Resources.resources
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.SMRForm.resources
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.SMRHubForm.resources
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada_Manager_Review.SMRHubForm.lkt-US.resources
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.csproj.GenerateResource.cache
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.exe.licenses
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.csproj.CoreCompileInputs.cache
+E:\Projects\WinForms\Scada Manager Review\obj\Release\lkt-US\Scada Manager Review.resources.dll
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Ma.D38C2DA1.Up2Date
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.exe
+E:\Projects\WinForms\Scada Manager Review\obj\Release\Scada Manager Review.pdb

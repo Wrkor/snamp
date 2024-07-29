@@ -1,0 +1,7 @@
+<FileList>
+  <File Reference = "Gnostice.Printer.dll">
+    <ToolboxItems VSCategory="Gnostice Document Studio .NET" BlendCategory="Gnostice Document Studio .NET">
+      <Item Type="Gnostice.Printer.DocumentPrinter" />
+    </ToolboxItems>
+  </File>
+</FileList>

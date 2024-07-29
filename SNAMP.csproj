@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2521A66A-C5A1-4894-8512-A2AA6348AE4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SNAMP</RootNamespace>
+    <AssemblyName>SNAMP</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="AngleSharp, Version=0.16.1.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
+      <HintPath>packages\AngleSharp.0.16.1\lib\net472\AngleSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="AngleSharp.Css, Version=0.16.4.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
+      <HintPath>packages\AngleSharp.Css.0.16.4\lib\net472\AngleSharp.Css.dll</HintPath>
+    </Reference>
+    <Reference Include="BitMiracle.LibJpeg.NET, Version=1.5.324.0, Culture=neutral, PublicKeyToken=53879b3e20e7a7d6, processorArchitecture=MSIL">
+      <HintPath>packages\BitMiracle.LibJpeg.NET.1.5.324\lib\net40\BitMiracle.LibJpeg.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>packages\DotNetZip.1.16.0\lib\net40\DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Gnostice.Controls.WinForms, Version=23.2.211.3115, Culture=neutral, PublicKeyToken=fc8cb3ab6a24df63, processorArchitecture=MSIL">
+      <HintPath>packages\Gnostice.DocumentStudio.WinForms.Free.23.2.211\lib\net462\Gnostice.Controls.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Gnostice.Core, Version=23.2.211.3115, Culture=neutral, PublicKeyToken=fc8cb3ab6a24df63, processorArchitecture=MSIL">
+      <HintPath>packages\Gnostice.DocumentStudio.Foundation.23.2.211\lib\net462\Gnostice.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Gnostice.Documents, Version=23.2.211.3115, Culture=neutral, PublicKeyToken=fc8cb3ab6a24df63, processorArchitecture=MSIL">
+      <HintPath>packages\Gnostice.DocumentStudio.Foundation.23.2.211\lib\net462\Gnostice.Documents.dll</HintPath>
+    </Reference>
+    <Reference Include="Gnostice.Graphics.GDIPlus, Version=23.2.211.3115, Culture=neutral, PublicKeyToken=fc8cb3ab6a24df63, processorArchitecture=MSIL">
+      <HintPath>packages\Gnostice.DocumentStudio.Foundation.23.2.211\lib\net462\Gnostice.Graphics.GDIPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Gnostice.Graphics.Skia, Version=23.2.211.3115, Culture=neutral, PublicKeyToken=fc8cb3ab6a24df63, processorArchitecture=MSIL">
+      <HintPath>packages\Gnostice.DocumentStudio.Foundation.23.2.211\lib\net462\Gnostice.Graphics.Skia.dll</HintPath>
+    </Reference>
+    <Reference Include="Gnostice.PageManager, Version=23.2.211.3115, Culture=neutral, PublicKeyToken=fc8cb3ab6a24df63, processorArchitecture=MSIL">
+      <HintPath>packages\Gnostice.DocumentStudio.WinForms.Free.23.2.211\lib\net462\Gnostice.PageManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Gnostice.Printer, Version=23.2.211.3115, Culture=neutral, PublicKeyToken=fc8cb3ab6a24df63, processorArchitecture=MSIL">
+      <HintPath>packages\Gnostice.DocumentStudio.Printer.23.2.211\lib\net462\Gnostice.Printer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>packages\log4net.2.0.15\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=3.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>packages\OpenTK.3.1.0\lib\net20\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl, Version=3.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>packages\OpenTK.GLControl.3.1.0\lib\net20\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>packages\SkiaSharp.2.88.3\lib\net462\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Desktop, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>packages\SkiaSharp.Views.2.88.3\lib\net462\SkiaSharp.Views.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Desktop.Common, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>packages\SkiaSharp.Views.Desktop.Common.2.88.3\lib\net462\SkiaSharp.Views.Desktop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Gtk, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>packages\SkiaSharp.Views.Gtk2.2.88.3\lib\net462\SkiaSharp.Views.Gtk.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.WindowsForms, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>packages\SkiaSharp.Views.WindowsForms.2.88.3\lib\net462\SkiaSharp.Views.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.WPF, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>packages\SkiaSharp.Views.WPF.2.88.3\lib\net462\SkiaSharp.Views.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Drawing.Common.4.5.1\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encoding.CodePages.5.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputForm.Designer.cs">
+      <DependentUpon>InputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Data\DataMeta.cs" />
+    <Compile Include="Models\Data\DataSMR.cs" />
+    <Compile Include="Models\Data\DataProjects.cs" />
+    <Compile Include="Models\Data\DataBuilder.cs" />
+    <Compile Include="Models\Data\DataDefault.cs" />
+    <Compile Include="Models\Data\DataInterface.cs" />
+    <Compile Include="Models\Data\IDataSerialize.cs" />
+    <Compile Include="Models\LimitedStack.cs" />
+    <Compile Include="Models\LinkToFile.cs" />
+    <Compile Include="Models\SMRData\SMRDataDirectoryRoot.cs" />
+    <Compile Include="Models\SMRData\SMRDataSMRFile.cs" />
+    <Compile Include="Models\SMRData\SMRDataFile.cs" />
+    <Compile Include="Models\SMRData\SMRDataDirectory.cs" />
+    <Compile Include="Models\SMRNewProject.cs" />
+    <Compile Include="Models\SMRData\ISMRData.cs" />
+    <Compile Include="Models\SMRProject.cs" />
+    <Compile Include="Models\SMRSpecification.cs" />
+    <Compile Include="Views\Default\MLinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Default\MToolStripButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\ImageList\IconList.cs" />
+    <Compile Include="Views\MenuStrip\ContextMenuStripListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\MenuStrip\ContextMenuStripListViewOnFile.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\MenuStrip\ContextMenuStripListViewSMR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Default\MLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Default\MTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Default\MButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Panel\PanelProperty.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Panel\PanelButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Panel\PanelFieldInputFile.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Panel\PanelFieldInput.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\TableLayoutPanel\TableLayoutPanelCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\TableLayoutPanel\TableLayoutPanelProperties.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\TableLayoutPanel\TableLayoutPanelSpecification.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Panel\PanelPictureBoxImage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NewProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewProjectForm.Designer.cs">
+      <DependentUpon>NewProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FlowLayoutPanel\FlowLayoutPanelBreadCrumbs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\DialogWindow.cs" />
+    <Compile Include="Views\Panel\PanelProperties.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\ListView\ListViewSMR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\ListView\ListViewNavigation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\MenuStrip\ToolStripNavigation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\TabPage\TabPageFile.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\TreeView\TreeViewNavigation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\TableLayoutPanel\TableLayoutPanelSMRProjects.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\SMRActions.cs" />
+    <Compile Include="Controllers\SMRStorage.cs" />
+    <Compile Include="Views\TabPage\TabPageSMR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\Storage.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Default\MTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SettingsTemplatesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsTemplatesForm.Designer.cs">
+      <DependentUpon>SettingsTemplatesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMRForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMRForm.Designer.cs">
+      <DependentUpon>SMRForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMRHubForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMRHubForm.Designer.cs">
+      <DependentUpon>SMRHubForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\DataSerialize.cs" />
+    <Compile Include="Utils\BuilderDateTime.cs" />
+    <Compile Include="Utils\BuilderDocument.cs" />
+    <Compile Include="Utils\BuilderSMR.cs" />
+    <Compile Include="Utils\BuilderFileOrDirectory.cs" />
+    <Compile Include="Utils\BuilderTableLayoutPanel.cs" />
+    <Compile Include="Utils\BuilderTreeView.cs" />
+    <Compile Include="Views\TreeView\TreeViewTemplate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputForm.resx">
+      <DependentUpon>InputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewProjectForm.resx">
+      <DependentUpon>NewProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsTemplatesForm.resx">
+      <DependentUpon>SettingsTemplatesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMRForm.resx">
+      <DependentUpon>SMRForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMRHubForm.lkt-US.resx">
+      <DependentUpon>SMRHubForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMRHubForm.resx">
+      <DependentUpon>SMRHubForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OpenTK.dll.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dir32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\PSD\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cut24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Create24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rename24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dir24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SMR64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\SMR16.png" />
+    <None Include="Resources\File-zip64.png" />
+    <None Include="Resources\File-zip16.png" />
+    <None Include="Resources\File-xls64.png" />
+    <None Include="Resources\File-xls16.png" />
+    <None Include="Resources\File-png64.png" />
+    <None Include="Resources\File-png16.png" />
+    <None Include="Resources\File-pdf64.png" />
+    <None Include="Resources\File-pdf16.png" />
+    <None Include="Resources\File-mov64.png" />
+    <None Include="Resources\File-mov16.png" />
+    <None Include="Resources\File-jpg64.png" />
+    <None Include="Resources\File-jpg16.png" />
+    <None Include="Resources\File-dwg64.png" />
+    <None Include="Resources\File-dwg16.png" />
+    <None Include="Resources\File-doc64.png" />
+    <None Include="Resources\File-doc16.png" />
+    <None Include="Resources\File16.png" />
+    <None Include="Resources\Dir16.png" />
+    <None Include="Resources\watch24.png" />
+    <None Include="Resources\minus24.png" />
+    <None Include="Resources\plus24.png" />
+    <None Include="Resources\File64.png" />
+    <None Include="Resources\Dir64.png" />
+    <None Include="Resources\Cancel24.png" />
+    <None Include="Resources\arrow-left24.png" />
+    <None Include="Resources\arrow-right24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\SkiaSharp.NativeAssets.macOS.2.88.3\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('packages\SkiaSharp.NativeAssets.macOS.2.88.3\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\SkiaSharp.NativeAssets.macOS.2.88.3\build\net462\SkiaSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\SkiaSharp.NativeAssets.macOS.2.88.3\build\net462\SkiaSharp.NativeAssets.macOS.targets'))" />
+    <Error Condition="!Exists('packages\SkiaSharp.NativeAssets.Win32.2.88.3\build\net462\SkiaSharp.NativeAssets.Win32.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\SkiaSharp.NativeAssets.Win32.2.88.3\build\net462\SkiaSharp.NativeAssets.Win32.targets'))" />
+  </Target>
+  <Import Project="packages\SkiaSharp.NativeAssets.Win32.2.88.3\build\net462\SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('packages\SkiaSharp.NativeAssets.Win32.2.88.3\build\net462\SkiaSharp.NativeAssets.Win32.targets')" />
+</Project>
